@@ -129,4 +129,4 @@ Contributions are welcome! If you'd like to add features (e.g., SQLite repositor
 
 ## License
 
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details (if included).
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.

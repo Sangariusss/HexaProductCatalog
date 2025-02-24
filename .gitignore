@@ -1,0 +1,81 @@
+# .NET / C# specific
+## Ignore build output files and folders
+bin/
+obj/
+*.user
+*.suo
+*.sln.docstates
+
+## NuGet Packages
+*.nupkg
+packages/
+**/nuget.exe
+
+## .NET Core / .NET 8
+*.csproj.*.backup
+*.csproj.user
+*.cache
+*.dll
+*.pdb
+*.exe
+*.runtimeconfig.json
+*.deps.json
+
+# Visual Studio specific
+.vs/
+*.vsidx
+*.vssettings
+*.vscode/
+*.idea/
+*.sln.iml
+
+# Logs and temporary files
+*.log
+*.tmp
+*.temp
+logs/
+
+# Dependency directories
+node_modules/
+
+# User-specific files
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Build results
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+[Aa]rchive/
+[Bb]uild/
+
+# Roslyn cache directories
+*.ide/
+
+# Rider (JetBrains) specific
+.idea/
+*.sln.iml
+
+# Test results
+TestResults/
+*.trx
+
+# macOS specific
+.DS_Store
+
+# Windows specific
+Thumbs.db
+desktop.ini
+
+# Miscellaneous
+*.bak
+*.swp
+*~
+*.lock
+
+# Optional: Ignore sensitive data (if applicable)
+appsettings.json
+secrets.json

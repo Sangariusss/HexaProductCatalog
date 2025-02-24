@@ -1,0 +1,50 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34622.214
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HexaProductCatalog.Domain", "HexaProduct.Domain\HexaProductCatalog.Domain.csproj", "{BFDFAAEB-46B8-4581-84E8-DA7776406277}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HexaProductCatalog.Application", "HexaProduct.Application\HexaProductCatalog.Application.csproj", "{C74D6BB1-D328-4AFE-BC17-D025EB2085E2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HexaProductCatalog.Infrastructure", "HexaProduct.Infrastructure\HexaProductCatalog.Infrastructure.csproj", "{7712A94F-D939-4E62-8BFB-EB5B9A506CD6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HexaProductCatalog.Presentation", "HexaProduct.Presentation\HexaProductCatalog.Presentation.csproj", "{E6B12C70-F62F-471B-AB93-59A59AAAADEC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{9DF01516-D628-4F7B-83F0-1A79DC2F2B85}"
+	ProjectSection(SolutionItems) = preProject
+		.gitignore = .gitignore
+		LICENSE = LICENSE
+		README.md = README.md
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BFDFAAEB-46B8-4581-84E8-DA7776406277}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BFDFAAEB-46B8-4581-84E8-DA7776406277}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BFDFAAEB-46B8-4581-84E8-DA7776406277}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BFDFAAEB-46B8-4581-84E8-DA7776406277}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C74D6BB1-D328-4AFE-BC17-D025EB2085E2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C74D6BB1-D328-4AFE-BC17-D025EB2085E2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C74D6BB1-D328-4AFE-BC17-D025EB2085E2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C74D6BB1-D328-4AFE-BC17-D025EB2085E2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7712A94F-D939-4E62-8BFB-EB5B9A506CD6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7712A94F-D939-4E62-8BFB-EB5B9A506CD6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7712A94F-D939-4E62-8BFB-EB5B9A506CD6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7712A94F-D939-4E62-8BFB-EB5B9A506CD6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E6B12C70-F62F-471B-AB93-59A59AAAADEC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E6B12C70-F62F-471B-AB93-59A59AAAADEC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E6B12C70-F62F-471B-AB93-59A59AAAADEC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E6B12C70-F62F-471B-AB93-59A59AAAADEC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {29A1080D-3132-4EDE-9221-224832E1A484}
+	EndGlobalSection
+EndGlobal
